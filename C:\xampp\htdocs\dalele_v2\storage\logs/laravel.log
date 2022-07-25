@@ -1,0 +1,17 @@
+[2022-06-23 18:47:47] local.ERROR: Command "optmize" is not defined.
+
+Did you mean one of these?
+    optimize
+    optimize:clear {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"optmize\" is not defined.
+
+Did you mean one of these?
+    optimize
+    optimize:clear at /var/www/html/dalele_v2/vendor/symfony/console/Application.php:718)
+[stacktrace]
+#0 /var/www/html/dalele_v2/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find()
+#1 /var/www/html/dalele_v2/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#2 /var/www/html/dalele_v2/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#3 /var/www/html/dalele_v2/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#4 /var/www/html/dalele_v2/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
